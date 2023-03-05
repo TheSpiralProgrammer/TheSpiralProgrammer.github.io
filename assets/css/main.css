@@ -1,0 +1,1769 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	background: #E5E5E5;
+}
+a {
+	text-decoration: none;
+}
+p {
+	margin: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.navbar-toggler:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button:focus, input:focus, select:focus, textarea:focus{
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible{
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.navbar-light .navbar-toggler{
+	border: 0;
+}
+/*header hero wrapeer css starts from here*/
+._header_hero_nav {
+	padding: 0;
+}
+.dropdown-toggle::after {
+	display: none;
+}
+._header_hero_wrapper{
+	padding: 20px 0 0;
+	background: #000000;
+	position: relative;
+	z-index: 1;
+	margin: 0 0 66px;
+}
+._header_hero_wrapper::before{
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	width: 100%;
+	right: 0;
+	z-index: -1;
+	background-image: url('../img/header_top_shape.png');
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+._header_navbar_dropdown {
+	background: #7262F6 !important;
+	color: #fff;
+}
+._header_hero_shape1{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+._header_hero_shape2{
+	position: absolute;
+	z-index: -1;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+}
+._header_hero_navbar {
+	justify-content: space-between;
+}
+._header_hero_contain{
+	border: 1px solid rgba(255, 255, 255, .4);
+	padding: 0 15px;
+}
+._header_hero_logo {
+	margin: 0 35px 0 0;
+	padding: 20px 36px 20px 20px;
+	border-right: 1px solid rgba(255, 255, 255, .4);
+}
+._header_navbar_dropdown {
+	background: #333;
+	color: #fff;
+}
+._header_navbar_dropdown_link{
+	color: #fff;
+}
+._header_hero_logo_link {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+._header_hero_item {
+	margin-left: 34px;
+}
+._header_hero_item:first-child{
+	margin-left: 0;
+}
+._header_hero_li_link {
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #FFFFFF ;
+	transition: .2s all ease;
+	display: block;
+}
+._header_hero_li_link_ic svg {
+	margin: -2px 0 0 5px;
+	transition: .2s all ease;
+}
+._header_hero_li_link:hover{
+	color: #7262F6;
+}
+._header_hero_li_link:hover ._header_hero_li_link_ic svg path{
+	stroke: #7262F6;
+}
+._header_hero_li_link.active{
+	color: #7262F6;
+}
+._header_hero_li_link.active ._header_hero_li_link_ic svg path{
+	stroke: #7262F6;
+}
+._header_hero_button_wrap{
+	align-items: center;
+}
+.nav-item.dropdown._header_hero_r8_list_item1 {
+	margin: 0 20px 0 0;
+}
+.navbar-nav._header_hero_r8_list {
+	align-items: center;
+}
+._header_hero_r8_list_login {
+	border: 0;
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	background-color: transparent;
+	transition: .2s all ease;
+}
+._header_hero_btn2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+	background: rgba(255, 255, 255, 0.2);
+	border: 0;
+	transition: .2s all ease;
+	color: #FFFFFF;
+	padding: 0 30px;
+}
+._header_hero_btn2:hover{
+	background: #7262F6;
+   ;
+}
+._header_hero_wrap{
+	padding: 74px 0 56px;
+	position: relative;
+}
+._header_hero_top_content{
+	margin: 0 0 72px;
+}
+._header_hero_top_content{
+	text-align: center;
+}
+._header_hero_top_content_h1{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 800;
+	font-size: 70px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	margin: 0 auto 28px;
+	max-width: 60%;
+}
+._header_hero_content_span {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	width: 315px;
+	height: 97px;
+}
+._header_hero_span_bg{
+	position: absolute;
+	content: "";
+	background: url('../img/header_span_shape.png');
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+._header_hero_top_content_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 1.5;
+	margin: 0 auto 46px;
+	max-width: 50%;
+}
+._header_hero_top_content_button {
+	display: flex;
+	justify-content: center;
+	margin: 0 0 16px;
+}
+._header_hero_input_grp{
+	max-width: 312px;
+	width: 100%;
+}
+._header_hero_input{
+	height: 60px;
+	padding: 0 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0;
+	background: #21202A;
+   /* max-width: 312px;
+	*/
+	width: 100%;
+	color: rgba(255, 255, 255, 0.7);
+}
+._header_hero_input::placeholder{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: rgba(255, 255, 255, 0.7);
+}
+._header_hero_signup{
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #7262F6;
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	width: 160px;
+	border: 0;
+	transition: .2s all ease;
+}
+._header_hero_signup:hover{
+	background: rgba(255, 255, 255, 0.2);
+}
+._header_hero_creditcard{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+._header_credit_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.2;
+	color: #FFFFFF;
+}
+._header_hero_form_grp {
+	max-width: 37%;
+	margin: 0 auto;
+}
+._header_hero_bottom_row{
+	justify-content: center;
+	align-items: center;
+}
+/*Responsive */
+@media only screen and (max-width: 1399px) {
+	._header_hero_top_content_h1 {
+		font-size: 60px;
+   }
+	._header_hero_content_span {
+		width: 282px;
+		height: 86px;
+   }
+}
+@media only screen and (max-width: 1199px) {
+	._header_hero_wrapper {
+		margin: 0 0 30px;
+   }
+	._header_hero_top_content_h1 {
+		font-size: 45px;
+		margin: 0 auto 20px;
+   }
+	._header_hero_content_span {
+		width: 202px;
+		height: 62px;
+   }
+	._header_hero_top_content_p {
+		margin: 0 auto 20px;
+		max-width: 57%;
+   }
+	._header_hero_shape1{
+		max-width: 20%;
+   }
+	._header_hero_shape2{
+		max-width: 20%;
+   }
+	._header_hero_input {
+		height: 50px;
+		padding: 0 15px;
+   }
+	._header_hero_signup {
+		height: 50px;
+   }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+	._header_hero_list{
+		margin: 20px 0 0;
+   }
+	.navbar-nav._header_hero_r8_list {
+		align-items: flex-start;
+		gap: 10px;
+   }
+	._header_hero_item {
+		margin: 0 0 10px;
+   }
+	._header_navbar_toggle_icon {
+		background-image: url('../img/menu.png') !important;
+		width: 20px;
+   }
+	._header_hero_logo {
+		margin: 0;
+		padding: 10px 20px 10px 0;
+   }
+	._header_hero_contain {
+		padding: 0 15px ;
+   }
+	._header_hero_btn2 {
+		height: 46px;
+		padding: 0 15px;
+		margin: 0 0 15px;
+   }
+	._header_hero_top_content_h1 {
+		font-size: 40px;
+   }
+	._header_hero_content_span {
+		width: 185px;
+		height: 57px;
+   }
+	._header_hero_top_content_p {
+		max-width: 65%;
+		font-size: 16px;
+   }
+	._header_hero_form_grp {
+		max-width: 45%;
+   }
+	._header_hero_input_grp {
+		max-width: 200px;
+   }
+	._header_hero_wrapper {
+		margin: 0;
+   }
+}
+@media only screen and (max-width: 767px) {
+	._header_hero_top_content_h1 {
+		font-size: 35px;
+		max-width: 72%;
+   }
+	._header_hero_content_span {
+		width: 165px;
+		height: 50px;
+   }
+	._header_hero_top_content_p {
+		max-width: 66%;
+   }
+	._header_hero_form_grp {
+		max-width: 56%;
+   }
+	._header_hero_input_grp {
+		max-width: 176px;
+   }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+	._header_hero_shape1,._header_hero_shape2{
+		display: none;
+   }
+	._header_hero_wrap {
+		padding: 50px 0;
+   }
+	._header_hero_top_content_h1 {
+		font-size: 30px;
+		max-width: 100%;
+   }
+	._header_hero_content_span {
+		width: 143px;
+		height: 43px;
+   }
+	._header_hero_top_content_p {
+		max-width: 100%;
+   }
+	._header_hero_form_grp {
+		max-width: 72%;
+   }
+	._header_hero_signup {
+		height: 40px;
+		font-size: 14px;
+		width: 97px;
+   }
+	._header_hero_input::placeholder{
+		font-size: 14px;
+   }
+	._header_hero_input {
+		height: 40px;
+   }
+	._header_hero_contain {
+		margin: 0 15px;
+   }
+	._header_hero_creditcard {
+		justify-content: center;
+   }
+}
+@media only screen and (max-width: 420px) {
+	._header_hero_form_grp {
+		max-width: 100%;
+   }
+}
+@media only screen and (max-width: 375px) {
+}
+/*header wrapper css ends here*/
+/*services chatbot wrapper css starts from here*/
+._services_chatbot_wrapper{
+	padding: 74px 0 75px 0;
+}
+._services_chatbot_title{
+	text-align: center;
+	margin: 0 0 48px;
+}
+._services_chatbot_title_h2{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: #040E21;
+	margin: 0 auto 18px;
+	max-width: 50%;
+}
+._services_chatbot_title_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #040E21;
+	opacity: 0.7;
+	margin: 0 auto;
+	max-width: 40%;
+}
+._services_chatbot_single_box{
+	text-align: center;
+}
+._services_chatbot_single_img1{
+	margin: 0 auto 31px;
+	max-width: 116px;
+}
+._services_chatbot_single_img2{
+	margin: 0 auto 31px;
+	max-width: 180px;
+}
+._services_chatbot_single_h4{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 600;
+	font-size: 34px;
+	line-height: 1.2;
+	color: #040E21;
+	margin: 0 0 12px;
+}
+._servics_chatbot_single_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #040E21;
+	opacity: 0.7;
+	margin: 0 0 20px;
+}
+._services_chatbot_single_link{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #525F7F;
+	transition: .2s all ease;
+}
+._services_chatbot_single_link:hover{
+	color: #7262F6;
+}
+._services_chatbot_single_span svg path{
+	transition: .2s all ease;
+}
+._services_chatbot_single_span svg{
+	margin-left: 8px;
+}
+._services_chatbot_single_link:hover ._services_chatbot_single_span svg path{
+	stroke: #7262F6;
+}
+/*Responsive */
+@media only screen and (max-width: 1399px) {
+	._services_chatbot_title_h2 {
+		font-size: 41px;
+   }
+	._services_chatbot_title_p {
+		max-width: 45%;
+   }
+	._services_chatbot_single_h4 {
+		font-size: 31px;
+   }
+}
+@media only screen and (max-width: 1199px) {
+	._services_chatbot_title_h2 {
+		max-width: 60%;
+   }
+	._services_chatbot_title_p {
+		max-width: 53%;
+   }
+	._services_chatbot_single_h4 {
+		font-size: 26px;
+   }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+	._services_chatbot_title_h2 {
+		max-width: 63%;
+		font-size: 35px;
+   }
+	._services_chatbot_title_p {
+		max-width: 60%;
+   }
+}
+@media only screen and (max-width: 767px) {
+	._services_chatbot_title_h2 {
+		max-width: 91%;
+   }
+	._services_chatbot_title_p {
+		max-width: 90%;
+   }
+	._services_chatbot_single_h4 {
+		font-size: 22px;
+   }
+	._servics_chatbot_single_p {
+		font-size: 13px;
+   }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+	._services_chatbot_wrapper {
+		padding: 50px 0 20px;
+   }
+	._services_chatbot_title_h2 {
+		max-width: 100%;
+		font-size: 30px;
+   }
+	._servics_chatbot_single_p {
+		font-size: 16px;
+		max-width: 70%;
+		margin: 0 auto 20px;
+   }
+	._services_chatbot_single_box {
+		margin: 0 0 30px;
+   }
+}
+@media only screen and (max-width: 420px) {
+	._services_chatbot_title_h2 {
+		font-size: 25px;
+		margin: 0 0 10px;
+   }
+}
+@media only screen and (max-width: 375px) {
+}
+/*services chatbot wrapper css ends here*/
+/*feature1 chatbot wrapper css starts from here*/
+._feature1_chatbot_wrapper{
+	padding: 74px 0;
+}
+._feature1_chatbot_content_h2{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: #040E21;
+	margin: 0 0 18px;
+}
+._feature1_chatbot_content_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #040E21;
+	margin: 0 0 36px;
+	max-width: 80%;
+}
+._feature_chatbot_btn{
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #7262F6;
+	padding: 0 28px;
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	transition: .2s all ease;
+	border: 0;
+}
+._feature_chatbot_btn:hover{
+	background-color: #040E21;
+}
+._feature1_chatbot_content_img_div {
+	max-width: 74%;
+	margin: 0 0 0 auto;
+}
+/*Responsive */
+@media only screen and (max-width: 1399px) {
+	._feature1_chatbot_content_h2 {
+		font-size: 45px;
+   }
+}
+@media only screen and (max-width: 1199px) {
+	._feature1_chatbot_content_p {
+		font-size: 16px;
+		max-width: 88%;
+   }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+	._feature1_chatbot_content_h2 {
+		font-size: 36px;
+   }
+	._feature1_chatbot_content_p {
+		max-width: 100%;
+   }
+}
+@media only screen and (max-width: 767px) {
+	._feature1_chatbot_row{
+		flex-direction: column-reverse;
+   }
+	._feature1_chatbot_content_img_div {
+		margin: 0 auto 30px;
+   }
+	._feature1_chatbot_wrapper {
+		padding: 0 0 70px;
+   }
+	._feature1_chatbot_content_h2 {
+		text-align: center;
+   }
+	._feature1_chatbot_content_p {
+		text-align: center;
+   }
+	._feature_chatbot_btn {
+		height: 50px !important;
+		padding: 0 20px !important;
+		font-size: 16px !important;
+		margin: 0 auto;
+   }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+	._feature1_chatbot_content_h2 {
+		font-size: 30px;
+   }
+}
+@media only screen and (max-width: 420px) {
+	._feature1_chatbot_content_h2 {
+		font-size: 25px;
+		margin: 0 0 10px;
+   }
+	._feature_chatbot_btn {
+		height: 40px !important;
+		padding: 0 15px !important;
+		font-size: 13px !important;
+		margin: 0 auto;
+   }
+	._feature1_chatbot_content_p {
+		margin: 0 0 20px;
+   }
+}
+@media only screen and (max-width: 375px) {
+}
+/*feature1 chatbot wrapper css ends here*/
+/*feature2 chatbot wrapper css starts from here*/
+._feature2_chatbot_wrapper{
+	padding: 51px 0;
+}
+._feature2_chatbot_content_h2{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: #040E21;
+	margin: 0 0 18px;
+	max-width: 80%;
+}
+._feature2_chatbot_content_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #040E21;
+	margin: 0 0 36px;
+	max-width: 80%;
+}
+._feature_chatbot_btn{
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #7262F6;
+	padding: 0 28px;
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	transition: .2s all ease;
+	border: 0;
+}
+._feature_chatbot_btn:hover{
+	background-color: #040E21;
+}
+._feature2_chatbot_content_img_div {
+	max-width: 76%;
+}
+/*Responsive */
+@media only screen and (max-width: 1399px) {
+	._feature2_chatbot_content_h2 {
+		font-size: 45px;
+   }
+}
+@media only screen and (max-width: 1199px) {
+	._feature2_chatbot_content_p {
+		font-size: 16px;
+		max-width: 88%;
+   }
+	._feature2_chatbot_content_h2 {
+		max-width: 100%;
+   }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+	._feature2_chatbot_content_h2 {
+		font-size: 36px;
+   }
+	._feature2_chatbot_content_p {
+		max-width: 100%;
+   }
+}
+@media only screen and (max-width: 767px) {
+	._feature2_chatbot_content_img_div {
+		margin: 0 auto;
+   }
+	._feature2_chatbot_wrapper {
+		padding: 0 0 70px;
+   }
+	._feature2_chatbot_content_h2 {
+		text-align: center;
+   }
+	._feature2_chatbot_content_p {
+		text-align: center;
+   }
+	._feature2_chatbot_content {
+		margin: 0;
+   }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+	._feature2_chatbot_content_h2 {
+		font-size: 30px;
+   }
+}
+@media only screen and (max-width: 420px) {
+	._feature2_chatbot_content_h2 {
+		font-size: 25px;
+		margin: 0 0 10px;
+   }
+	._feature2_chatbot_content_p {
+		margin: 0 0 20px;
+   }
+}
+@media only screen and (max-width: 375px) {
+}
+/*feature2 chatbot wrapper css ends from here*/
+/*feature3 chatbot wrapper css starts from here*/
+._feature3_chatbot_wrapper{
+	padding: 48px 0 69px;
+}
+._feature3_chatbot_content_h2{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: #040E21;
+	margin: 0 0 18px;
+	max-width: 70%;
+}
+._feature3_chatbot_content_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #040E21;
+	max-width: 80%;
+}
+._feature3_chatbot_content_img_div {
+	max-width: 85%;
+	margin: 0 0 0 auto;
+}
+/*Responsive */
+@media only screen and (max-width: 1399px) {
+	._feature3_chatbot_content_h2 {
+		font-size: 45px;
+		max-width: 75%;
+   }
+}
+@media only screen and (max-width: 1199px) {
+	._feature3_chatbot_content_p {
+		font-size: 16px;
+		max-width: 88%;
+   }
+	._feature3_chatbot_content_h2 {
+		max-width: 100%;
+   }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+	._feature3_chatbot_content_h2 {
+		font-size: 36px;
+   }
+	._feature3_chatbot_content_p {
+		max-width: 100%;
+   }
+}
+@media only screen and (max-width: 767px) {
+	._feature3_chatbot_row{
+		flex-direction: column-reverse;
+   }
+	._feature3_chatbot_content_img_div {
+		margin: 0 auto 30px;
+   }
+	._feature3_chatbot_wrapper {
+		padding: 0 0 70px;
+   }
+	._feature3_chatbot_content_h2 {
+		text-align: center;
+   }
+	._feature3_chatbot_content_p {
+		text-align: center;
+   }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+	._feature3_chatbot_content_h2 {
+		font-size: 30px;
+   }
+}
+@media only screen and (max-width: 420px) {
+	._feature3_chatbot_content_h2 {
+		font-size: 25px;
+		margin: 0 0 10px;
+   }
+	._feature3_chatbot_content_p {
+		margin: 0 0 20px;
+   }
+}
+@media only screen and (max-width: 375px) {
+}
+/*feature3 chatbot wrapper css ends from here*/
+/*feature3 chatbot wrapper css starts from here*/
+._feature4_chatbot_wrapper{
+	padding: 71px 0 113px;
+}
+._feature4_chatbot_content_h2{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: #040E21;
+	margin: 0 0 18px;
+	max-width: 70%;
+}
+._feature4_chatbot_content_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #040E21;
+	max-width: 80%;
+	margin: 0 0 38px;
+}
+._feature4_chatbot_list_group{
+	display: flex;
+	gap: 68px;
+}
+._feature4_chatbot_item{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #040E21;
+	opacity: 0.8;
+	position: relative;
+	margin: 0 0 24px;
+	padding: 0 0 0 20px;
+}
+._feature4_chatbot_item::before {
+	position: absolute;
+	left: 0;
+	content: "";
+	width: 9px;
+	height: 9px;
+	background-color: #7262F6;
+	border-radius: 50%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+._feature4_chatbot_item:last-child{
+	margin: 0;
+}
+._feature4_chatbot_content_img_div {
+	max-width: 80%;
+}
+/*Responsive */
+@media only screen and (max-width: 1399px) {
+	._feature4_chatbot_content_h2 {
+		font-size: 45px;
+		max-width: 77%;
+   }
+}
+@media only screen and (max-width: 1199px) {
+	._feature4_chatbot_content_p {
+		font-size: 16px;
+		max-width: 88%;
+   }
+	._feature4_chatbot_content_h2 {
+		max-width: 100%;
+   }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+	._feature4_chatbot_content_h2 {
+		font-size: 36px;
+   }
+	._feature4_chatbot_content_p {
+		max-width: 100%;
+   }
+	._feature4_chatbot_list_group {
+		gap: 17px;
+   }
+}
+@media only screen and (max-width: 767px) {
+   /* ._feature4_chatbot_row{
+		flex-direction: column-reverse;
+   }
+	*/
+	._feature4_chatbot_content_img_div {
+		margin: 0 auto 30px;
+   }
+	._feature4_chatbot_wrapper {
+		padding: 0 0 70px;
+   }
+	._feature4_chatbot_content_h2 {
+		text-align: center;
+   }
+	._feature4_chatbot_content_p {
+		text-align: center;
+   }
+	._feature4_chatbot_list_group {
+		justify-content: center;
+   }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+	._feature4_chatbot_content_h2 {
+		font-size: 30px;
+   }
+}
+@media only screen and (max-width: 420px) {
+	._feature4_chatbot_content_h2 {
+		font-size: 25px;
+		margin: 0 0 10px;
+   }
+	._feature4_chatbot_content_p {
+		margin: 0 0 20px;
+   }
+}
+@media only screen and (max-width: 375px) {
+}
+/*feature4 chatbot wrapper css ends from here*/
+/*conversation chatbot wrapper starts from here*/
+._conversation_chatbot_wrappper{
+	padding: 76px 0 85px;
+	background: #FFFFFF;
+	margin: 0 0 36px;
+}
+._conversation_chatbot_title{
+	text-align: center;
+	margin: 0 0 60px;
+}
+._conversation_chatbot_title_h2{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: #040E21;
+	margin: 0 auto 18px;
+	max-width: 50%;
+}
+._conversation_chatbot_title_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #040E21;
+	opacity: 0.7;
+	max-width: 55%;
+	margin: 0 auto;
+}
+._conversation_chatbot_single{
+	background: #040E21;
+	border-radius: 30px;
+	padding: 36px 30px 44px ;
+	display: flex;
+	gap: 24px;
+}
+._conversation_chatbot_logo {
+	flex-basis: 32%;
+}
+._conversation_chatbot_content_h3{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 1.2;
+	color: #FAFBFD;
+	margin: 0 0 18px;
+}
+._conversation_chatbot_content_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	opacity: 0.7;
+	margin: 0 0 34px;
+	max-width: 73%;
+}
+._conversation_chatbot_content_link{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #525F7F;
+	transition: .2s all ease;
+}
+._conversation_chatbot_content_link:hover{
+	color: #7262F6;
+}
+._conversation_chatbot_content_span{
+	margin-left: 6px;
+}
+._conversation_chatbot_content_span svg path{
+	transition: .2s all ease;
+}
+._conversation_chatbot_content_link:hover ._conversation_chatbot_content_span svg path{
+	stroke: #7262F6;
+}
+/*Responsive */
+@media only screen and (max-width: 1399px) {
+	._conversation_chatbot_title_h2 {
+		font-size: 44px;
+   }
+	._conversation_chatbot_title_p {
+		font-size: 16px;
+   }
+	._conversation_chatbot_content_p {
+		max-width: 80%;
+   }
+	._conversation_chatbot_logo {
+		flex-basis: 25%;
+   }
+}
+@media only screen and (max-width: 1199px) {
+	._conversation_chatbot_title_h2 {
+		font-size: 40px;
+		max-width: 60%;
+   }
+	._conversation_chatbot_title_p {
+		max-width: 67%;
+   }
+	._conversation_chatbot_content_h3 {
+		font-size: 30px;
+   }
+	._conversation_chatbot_content_p {
+		max-width: 100%;
+		margin: 0 0 25px;
+   }
+	._conversation_chatbot_single {
+		padding: 36px 20px 44px;
+		gap: 15px;
+   }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+	._conversation_row{
+		justify-content: center;
+   }
+	._conversation_chatbot_content_p {
+		max-width: 96%;
+   }
+	._conversation_chatbot_single {
+		margin-bottom: 20px;
+   }
+	._conversation_chatbot_title_h2 {
+		font-size: 35px;
+		max-width: 64%;
+   }
+	._conversation_chatbot_title_p {
+		max-width: 90%;
+   }
+}
+@media only screen and (max-width: 767px) {
+	._conversation_chatbot_title_h2 {
+		max-width: 86%;
+   }
+	._conversation_chatbot_logo {
+		flex-basis: 10%;
+   }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+	._conversation_chatbot_logo {
+		flex-basis: 18%;
+   }
+	._conversation_chatbot_content_h3 {
+		font-size: 25px;
+   }
+	._conversation_chatbot_wrappper {
+		padding: 50px 0 30px;
+		margin: 0 0 30px;
+   }
+	._conversation_chatbot_title_h2 {
+		font-size: 30px;
+		max-width: 90%;
+   }
+	._conversation_chatbot_title_p {
+		max-width: 100%;
+   }
+	._conversation_chatbot_title {
+		margin: 0 0 40px;
+   }
+	._conversation_chatbot_single {
+		max-width: 370px;
+		margin: 0 auto 20px;
+   }
+}
+@media only screen and (max-width: 420px) {
+	._conversation_chatbot_title_h2 {
+		font-size: 25px;
+		margin: 0 auto 10px;
+   }
+	._conversation_chatbot_content_h3 {
+		font-size: 23px;
+		margin: 0 0 10px;
+   }
+}
+@media only screen and (max-width: 375px) {
+}
+/*conversation chatbot wrapper ends here*/
+/*testimonial chatbot wrapper starts from here*/
+._testimonial_chatbot_wrapper{
+	padding: 85px 0;
+	position: relative;
+	z-index: 1;
+}
+._testimonial_chatbot_wrapper::before{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: url('../img/testimonial_full_shape.png');
+	background-size: cover;
+}
+._testimonial_chatbot_title{
+	margin: 0 0 60px;
+}
+._testimonial_chatbot_title_h2{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.2;
+	color: #040E21;
+	margin: 0 0 18px;
+}
+._testimonial_chatbot_title_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #040E21;
+	opacity: 0.7;
+	max-width: 70%;
+}
+._testimonial_chatbot_button{
+	display: flex;
+	justify-content: flex-end;
+}
+._testimonial_chatbot_btn{
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 28px;
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	background: #7262F6;
+	border: 0;
+	transition: .2s all ease;
+}
+._testimonial_chatbot_btn:hover{
+	background-color: #040E21;
+}
+._testimonial_chatbot_single_top1,._testimonial_chatbot_single_top2,._testimonial_chatbot_single_top3,._testimonial_chatbot_single_top4,._testimonial_chatbot_single_top5, ._testimonial_chatbot_single_top6{
+	padding: 15px 17px 14px ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	border-radius: 22px 18px 0 0;
+}
+._testimonial_chatbot_single_top1{
+	background-image: url('../img/testimonial_shape.png');
+}
+._testimonial_chatbot_single_top2{
+	background-image: url('../img/testimonial_shape2.png');
+}
+._testimonial_chatbot_single_top3{
+	background-image: url('../img/testimonial_shape3.png');
+}
+._testimonial_chatbot_single_top4{
+	background-image: url('../img/testimonial_shape4.png');
+}
+._testimonial_chatbot_single_top5{
+	background-image: url('../img/testimonial_shape5.png');
+}
+._testimonial_chatbot_single_top6{
+	background-image: url('../img/testimonial_shape6.png');
+}
+._testimonial_chatbot_single_bottom{
+	padding: 24px 11px 26px 26px;
+}
+._testimonial_chatbot_single_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.2;
+	color: #040E21;
+	margin: 0 0 16px;
+}
+._testimonial_chatbot_single_span{
+	display: block;
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #040E21;
+	opacity: 0.7;
+}
+._testimonial_chatbot_single_div1,._testimonial_chatbot_single_div2,._testimonial_chatbot_single_div3{
+	margin: 0 0 40px;
+}
+._testimonial_chatbot_single {
+	border: 1px solid rgba(4, 14, 33, 1);
+	border-radius: 24px 22px 20px 20px;
+}
+._testimonial_chatbot_single_list{
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+._testimonial_chatbot_single_item{
+	width: 24px;
+	height: 24px;
+}
+/*Responsive */
+@media only screen and (max-width: 1399px) {
+	._testimonial_chatbot_title_h2 {
+		font-size: 44px;
+   }
+	._testimonial_chatbot_title_p {
+		max-width: 81%;
+   }
+	._testimonial_chatbot_single_p {
+		font-size: 16px;
+   }
+}
+@media only screen and (max-width: 1199px) {
+	._testimonial_chatbot_title_h2 {
+		font-size: 40px;
+   }
+	._testimonial_chatbot_title_p {
+		font-size: 16px;
+   }
+	._testimonial_chatbot_single_p {
+		font-size: 15px;
+   }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+	._testimonial_chatbot_title_h2 {
+		font-size: 35px;
+		margin: 0 0 10px;
+   }
+	._testimonial_chatbot_title_p {
+		max-width: 100%;
+   }
+}
+@media only screen and (max-width: 767px) {
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+	._testimonial_chatbot_wrapper {
+		padding: 50px 0 30px;
+   }
+	._testimonial_chatbot_title {
+		margin: 0 0 30px;
+		text-align: center;
+   }
+	._testimonial_chatbot_btn {
+		height: 50px;
+		padding: 0 20px;
+		font-size: 16px;
+		transition: .2s all ease;
+   }
+	._testimonial_chatbot_button {
+		justify-content: center;
+		margin: 0 0 50px;
+   }
+	._testimonial_chatbot_single_div1, ._testimonial_chatbot_single_div2, ._testimonial_chatbot_single_div3,._testimonial_chatbot_single_div4, ._testimonial_chatbot_single_div5, ._testimonial_chatbot_single_div6 {
+		margin: 0 auto 20px;
+		max-width: 370px;
+   }
+	._testimonial_chatbot_title_h2 {
+		font-size: 30px;
+   }
+}
+@media only screen and (max-width: 420px) {
+	._testimonial_chatbot_btn {
+		height: 40px;
+		padding: 0 15px;
+		font-size: 13px;
+   }
+	._testimonial_chatbot_title {
+		margin: 0 0 15px;
+   }
+	._testimonial_chatbot_title_h2 {
+		font-size: 25px;
+		margin: 0 0 10px;
+   }
+}
+@media only screen and (max-width: 375px) {
+}
+/*testimonial chatbot wrapper ends here*/
+/*cta chatbot wrapper starts from here*/
+._cta_chatbot_wrapper{
+	padding: 128px 0 126px;
+	position: relative;
+	z-index: 1;
+	background: url('../img/subscribe_image.png'),#040E21;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+._cta_chatbot_wrapper::after{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	background: radial-gradient(81.16% 143.98% at 50% -5.92%, rgba(69, 42, 150, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	right: 0;
+}
+._cta_chatbot_content{
+	text-align: center;
+}
+._cta_chatbot_title{
+	margin: 0 0 48px;
+}
+._cta_chatbot_title_h2{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	margin: 0 0 18px;
+}
+._cta_chatbot_title_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	max-width: 44%;
+	margin: 0 auto;
+}
+._cta_chatbot_content_button{
+	display: flex;
+	justify-content: center;
+}
+._cta_chatbot_content_input_grp{
+	max-width: 312px;
+	width: 100%;
+}
+._cta_chatbot_content_input{
+	height: 60px;
+	padding: 0 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0;
+	background: #21202A;
+	width: 100%;
+	color: rgba(255, 255, 255, 0.7);
+}
+._cta_chatbot_content_input::placeholder{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: rgba(255, 255, 255, 0.7);
+}
+._cta_chatbot_content_signup{
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #7262F6;
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	padding: 0 34px;
+	border: 0;
+	transition: .2s all ease;
+}
+._cta_chatbot_content_signup:hover{
+	background: rgba(255, 255, 255, 0.2);
+}
+/*Responsive */
+@media only screen and (max-width: 1399px) {
+	._cta_chatbot_title_h2 {
+		font-size: 45px;
+   }
+	._cta_chatbot_title_p {
+		max-width: 47%;
+   }
+}
+@media only screen and (max-width: 1199px) {
+	._cta_chatbot_title_h2 {
+		font-size: 40px;
+   }
+	._cta_chatbot_title_p {
+		max-width: 56%;
+   }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+	._cta_chatbot_wrapper {
+		padding: 100px 0;
+   }
+	._cta_chatbot_title_h2 {
+		font-size: 35px;
+   }
+	._cta_chatbot_title_p {
+		max-width: 60%;
+   }
+	._cta_chatbot_content_signup {
+		padding: 0 20px;
+   }
+	._cta_chatbot_content_input_grp {
+		max-width: 225px;
+   }
+}
+@media only screen and (max-width: 767px) {
+	._cta_chatbot_wrapper {
+		padding: 70px 0;
+   }
+	._cta_chatbot_title {
+		margin: 0 0 30px;
+   }
+	._cta_chatbot_title_p {
+		max-width: 82%;
+   }
+	._cta_chatbot_content_input {
+		height: 50px;
+		padding: 0 13px;
+   }
+	._cta_chatbot_content_signup {
+		padding: 0 15px;
+		height: 50px;
+   }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+	._cta_chatbot_wrapper {
+		padding: 50px 0;
+   }
+	._cta_chatbot_title_h2 {
+		font-size: 30px;
+   }
+	._cta_chatbot_title_p {
+		max-width: 100%;
+   }
+	._cta_chatbot_content_signup{
+		font-size: 14px;
+   }
+	._cta_chatbot_content_input::placeholder{
+		font-size: 14px;
+   }
+}
+@media only screen and (max-width: 420px) {
+	._cta_chatbot_content_input {
+		padding: 0 13px;
+   }
+	._cta_chatbot_content_signup {
+		padding: 0 13px;
+   }
+	._cta_chatbot_title_h2 {
+		font-size: 25px;
+		margin: 0 auto 10px;
+   }
+}
+@media only screen and (max-width: 375px) {
+	._cta_chatbot_title_h2 {
+		font-size: 28px;
+   }
+	._cta_chatbot_content_input_grp {
+		max-width: 184px;
+   }
+}
+/*cta chatbot wrapper ends here*/
+/*footer chatbot wrapper starts from her*/
+._footer_chatbot_wrapper{
+	padding: 84px 0 50px;
+}
+._footer_chatbot_logo{
+	width: 127px;
+	display: block;
+	margin: 0 0 18px;
+}
+._footer_chatbot_logo_p{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #040E21;
+	opacity: 0.6;
+	max-width: 56%;
+}
+.footer_chatbot_single_h5{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.2;
+	color: #040E21;
+	margin: 0 0 28px;
+}
+.footer_chatbot_single_item{
+	margin: 0 0 20px;
+}
+.footer_chatbot_single_item:last-child{
+	margin: 0;
+}
+.footer_chatbot_single_link{
+	display: block;
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #040E21;
+	opacity: 0.7;
+	transition: .2s all ease;
+}
+.footer_chatbot_single_link:hover{
+	opacity: 1;
+}
+.footer_chatbot_media_link{
+	margin-right: 10px;
+}
+.footer_chatbot_media_item{
+	margin: 0 0 23px;
+}
+.footer_chatbot_media_span2{
+	font-family: 'Plus Jakarta Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #040E21;
+	opacity: 0.7;
+	transition: .2s all ease;
+}
+.footer_chatbot_media_span2:hover{
+	opacity: 1;
+}
+.footer_chatbot_media_item:last-child{
+	margin: 0;
+}
+._footer_chatbot_list_box1{
+	margin: 0 0 78px;
+}
+._footer_chatbot_bottom{
+	margin: 70px 0 0;
+	padding: 20px 0 0;
+	border-top: 1px solid rgba(4, 14, 33, 0.2);
+}
+._footer_chatbot_bottom_list{
+	display: flex;
+	gap: 88px;
+}
+._footer_chatbot_bottom_link{
+	font-family: 'Plus Jakarta Display';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #040E21;
+	opacity: 0.6;
+}
+._footer_chetbot_copyright_link{
+	font-family: 'Plus Jakarta Display';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: right;
+	color: #040E21;
+	opacity: 0.6;
+}
+._footer_chetbot_copyright{
+	text-align: right;
+}
+/*Responsive */
+@media only screen and (max-width: 1399px) {
+	._footer_chatbot_logo_p {
+		max-width: 65%;
+   }
+}
+@media only screen and (max-width: 1199px) {
+	._footer_chatbot_logo_p {
+		max-width: 94%;
+   }
+}
+/* Ipad pro */
+@media only screen and (max-width: 991px) {
+	._footer_chatbot_logo_content {
+		text-align: center;
+		margin: 0 0 30px;
+   }
+	._footer_chatbot_logo {
+		margin: 0 auto 18px;
+   }
+	._footer_chatbot_logo_p {
+		max-width: 80%;
+		margin: 0 auto;
+   }
+	._footer_chatbot_list_box1 {
+		margin: 0 0 40px;
+   }
+}
+@media only screen and (max-width: 767px) {
+	._footer_chatbot_list_box1 {
+		margin: 0 0 36px;
+   }
+	._footer_chatbot_bottom {
+		margin: 50px 0 0;
+   }
+	._footer_chatbot_bottom_list {
+		gap: 14px;
+   }
+}
+/* Mobile */
+@media only screen and (max-width: 575px) {
+	._footer_chatbot_logo_p {
+		max-width: 100%;
+   }
+	.footer_chatbot_single_h5 {
+		font-size: 17px;
+		margin: 0 0 15px;
+   }
+	.footer_chatbot_single_item {
+		margin: 0 0 10px;
+   }
+	._footer_chatbot_list_box1 {
+		margin: 0 0 25px;
+   }
+	._footer_media_row{
+		margin: 25px 0 0;
+   }
+	.footer_chatbot_media_link {
+		margin-right: 3px;
+   }
+	.footer_chatbot_media_item {
+		margin: 0 0 10px;
+   }
+	.footer_chatbot_single_content {
+		margin: 0 0 25px;
+   }
+	._footer_chatbot_bottom_list {
+		justify-content: center;
+   }
+	._footer_chetbot_copyright {
+		text-align: center;
+   }
+	._footer_chatbot_wrapper {
+		padding: 50px 0 20px;
+   }
+	._footer_chatbot_bottom {
+		margin: 0;
+   }
+	._footer_media_row {
+		margin: 0;
+   }
+}
+@media only screen and (max-width: 420px) {
+}
+@media only screen and (max-width: 375px) {
+}
+/*footer chatbot wrapper ends here*/
